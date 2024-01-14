@@ -1,0 +1,27 @@
+name: perpustakaan
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  dio: ^5.4.0
+  file_picker: ^6.1.1
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  skeletons: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
